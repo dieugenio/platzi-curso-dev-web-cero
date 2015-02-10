@@ -1,0 +1,18 @@
+/*
+* Mucho cuidado al utilizar el selector universal
+* De momento lo inhabilitamos
+*/
+h1, .h1 {
+  color: maroon;
+  font-family: Arial, Helvetica, sans-serif; }
+
+h2, .h2 {
+  color: green;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.background-pink {
+  background-color: pink; }
+
+.article__header {
+  color: maroon;
+  font-family: Arial, Helvetica, sans-serif; }

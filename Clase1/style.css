@@ -1,0 +1,30 @@
+/*CUIDADO! no añadir más reglas sin consultar*/
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+/*
+	Esto es un módulo de listas horizontales
+*/
+.lista-horizontal {
+	margin: 0;
+	padding: 0;
+}
+
+	.lista-horizontal__item {
+		display: inline-block;
+		background: green;
+		width: 25%;
+		padding: 10px;
+		border: 10px red solid;
+	}
+
+	.lista-horizontal__item a {}
+
+	.header-home {
+		background-color: maroon;
+	}

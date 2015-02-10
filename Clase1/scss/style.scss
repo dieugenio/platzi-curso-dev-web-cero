@@ -1,0 +1,32 @@
+/*
+* Mucho cuidado al utilizar el selector universal
+* De momento lo inhabilitamos
+*/
+// * {
+// 	color: red;
+// }
+
+// Selector de elemento:
+h1, .h1 {
+	color: maroon;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h2, .h2 {
+	color: green;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.background-pink {
+	background-color: pink;
+}
+
+.article {
+
+}
+	.article__header {
+		color: maroon;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.article__footer {
+
+	}

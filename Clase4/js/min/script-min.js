@@ -1,0 +1,1 @@
+function errorFound(o){console.log("Ocurrió un error: "+o.code)}function showPosition(o,n){console.log("Callback desde getCurrentPosition")}!function(){navigator.geolocation?(console.log("Inicio de llamada a getCurrentPosition"),navigator.geolocation.getCurrentPosition(showPosition)):alert("Tu navegador no soporta Geolocation")}();
